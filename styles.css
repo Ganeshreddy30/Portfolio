@@ -121,7 +121,7 @@
             flex-direction: row-reverse;
             flex-wrap: nowrap;
             margin-top: 4rem;
-}s
+}
 
         .hero-text {
             text-align: left;
@@ -511,7 +511,9 @@
             .nav-links {
                 gap: 1.2rem;
             }
-            
+            .logo{
+                font-size: 1rem;
+            }
             .hero h1 {
                 font-size: 2.2rem;
             }
@@ -544,10 +546,12 @@
             .nav-links {
                 display:flex; /* Would toggle with mobile menu */
                 flex-direction: row;
-                flex-wrap: wrap;
+                flex-wrap: nowrap;
                 justify-content: center;
             }
-            
+            .nav-links a{
+                font-size: 1rem;
+            }
             .hero h1 {
                 font-size: 1.8rem;
             }
