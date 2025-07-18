@@ -535,6 +535,21 @@
                 gap: 2rem;
                 text-align: justify;
             }
+            .about-content h2{
+                font-size: 1.5rem;
+            }
+            .about-content p{
+                font-size: 1rem;
+            }
+            .skills{
+                font-size: 1rem;
+            }
+            .projects h2{
+                font-size: 1.5rem;
+            }
+            .projects p{
+                font-size: 1rem;
+            }
 
         }
         
